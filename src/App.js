@@ -8,6 +8,7 @@ import ForgotPassword from "./pages/ForgotPassword";
 import Offers from "./pages/Offers";
 import Header from "./components/Header";
 import { ToastContainer, toast, Bounce } from "react-toastify";
+import CreateListing from "./pages/CreateListing";
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
           <Route path="/sign-up" element={<SignUp/>} />
           <Route path="/forgot-password" element={<ForgotPassword/>} />
           <Route path="/offers" element={<Offers/>} />
+          <Route path="/create-listing" element={<CreateListing/>} />
         </Routes>
       </Router>
 
